@@ -1,0 +1,138 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+    text-align: center;
+}
+
+#mainTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*color: #00C9FF;
+    /*font-weight: 600;*/
+    color: #fff;
+    font-size: 3rem;
+}
+
+.main_card {
+    color: black;
+    width: 760px;
+    height: 390px;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 770px;
+    background: #00C9FF;
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+    background: -webkit-gradient(linear, left top, right top, from(#92FE9D), to(#00C9FF));
+    background: -webkit-linear-gradient(left, #92FE9D, #00C9FF);
+    background: -o-linear-gradient(left, #92FE9D, #00C9FF);
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.card_left {
+    width: 90%;
+}
+
+.card_datails {
+    width: 90%;
+    padding: 30px;
+    margin-top: -25px;
+}
+
+.card_datails h1 {
+    font-size: 30px;
+}
+
+.card_right img {
+    height: 390px;
+    border-radius: 2px;
+}
+
+.card_right {
+    border-radius: 2px;
+}
+
+.card_cat {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.PG,
+.year,
+.genre,
+.time {
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.PG {
+    background: #92FE9D;
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.disc {
+    font-weight: 100;
+    line-height: 27px;
+    height: auto;
+    width: auto;
+    max-height: 120px;
+    border: 3px solid white;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+a {
+    color: darkcyan;
+    display: block;
+    text-decoration: none;
+}
+
+
+/**************************/
+
+form {
+    padding: 2px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(181, 34, 34, 0.2);
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+    border: 1px solid black;
+}
